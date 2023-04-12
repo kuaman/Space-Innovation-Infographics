@@ -6,17 +6,22 @@ body {
 .background {
 	position: absolute;
 	height: max-content;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 .wrapper {
 	position: absolute;
+	margin-left: 9vw;
+	margin-top: 12vh;
 }
 
 .container { 
 	height: 73.5vw;
 	margin: 1vw auto;
-	max-height: 350px;
-	max-width: 450px;
+	max-height: 500px;
+	max-width: 700px;
 	overflow: hidden;
 	width: 98vw;
 	position: relative;
@@ -24,7 +29,7 @@ body {
 	left: 60px;
 }
 .container figure { 
-	background-image: url("infographic.png");
+	background-image: url("changed.png");
 	background-size: cover;
 	font-size: 0;
 	height: 100%;
@@ -33,7 +38,7 @@ body {
 	width: 100%; 
 }
 #compare {
-	background-image: url("test1.jpg");
+	background-image: url("original.jpg");
 	background-size: cover;
 	bottom: 0;
 	border-right: 5px solid rgba(255,255,255,0.7);
